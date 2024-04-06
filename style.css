@@ -1,0 +1,25 @@
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+  }
+  
+  .slides img:first-child {
+    display: block;
+  }
+
+  .pagination-btns{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
